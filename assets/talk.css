@@ -1,0 +1,50 @@
+.mira-hair {
+  clip-path: polygon(29% 23%, 32% 14%, 46% 8%, 65% 9%, 73% 18%, 74% 29%, 70% 33%, 67% 22%, 58% 18%, 43% 19%, 35% 26%, 34% 37%, 29% 42%, 27% 37%);
+  animation: mira-hair-float 9s ease-in-out infinite;
+  mask-image: radial-gradient(ellipse at 50% 22%, black 12%, transparent 35%);
+}
+.mira-blink {
+  clip-path: ellipse(4.3% 1.1% at 44% 32.5%);
+  opacity: 0;
+  animation: mira-eye-blink 11s linear infinite;
+}
+.mira-blink::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('/portrait_warm_soft.png');
+  background-size: 100% 100%;
+  transform: translateY(-1.9%);
+}
+.mira-blink-right {
+  clip-path: ellipse(4.1% 1.1% at 60% 32.3%);
+}
+.mira-eyelid-source { transform: translateY(-1.9%); }
+.mira-mouth {
+  clip-path: ellipse(7.2% 1.8% at 52% 48%);
+  mask-image: radial-gradient(ellipse 8% 2.2% at 52% 48%, black 40%, transparent 100%);
+  transform-origin: 52% 48%;
+  animation: mira-mouth-idle 8s ease-in-out infinite;
+}
+.mira-portrait-processing .mira-mouth { animation: mira-mouth-working 3.5s ease-in-out infinite; }
+@keyframes mira-hair-float {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(.35px, -.5px) rotate(.08deg); }
+}
+@keyframes mira-eye-blink {
+  0%, 41%, 43%, 100% { opacity: 0; }
+  41.7%, 42.2% { opacity: .94; }
+}
+@keyframes mira-mouth-idle {
+  0%, 35%, 65%, 100% { transform: translateY(0); }
+  50% { transform: translateY(.2px); }
+}
+@keyframes mira-mouth-working {
+  0%, 100% { transform: translateY(0); }
+  45% { transform: translateY(.4px); }
+  70% { transform: translateY(.1px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mira-portrait *, .mira-chat .animate-spin { animation: none !important; transform: none !important; }
+  .mira-portrait > div { display: none !important; }
+}

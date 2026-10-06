@@ -1,0 +1,5 @@
+## Mental Wellness Companion Plan
+- [x] Create a responsive welcome page with a calm sage, cream, and muted terracotta palette, warm editorial typography, an introduction to the AI companion, a clear start-chat action, and visible safety guidance.
+- [ ] Build a text-chat page with a human avatar, working AI replies, session-only conversation, useful starter prompts, loading and error states, and a clear reminder that the companion is not a clinician or emergency service.
+- [x] Add a persistent light/dark appearance toggle across the welcome and talk pages while preserving Mira’s existing sage, cream, and terracotta identity.
+- [x] Restyle the talk page into a familiar WhatsApp-like messaging layout and add subtle reduced-motion-aware blinking, mouth, and hair movement to Mira’s existing portrait without replacing her image.

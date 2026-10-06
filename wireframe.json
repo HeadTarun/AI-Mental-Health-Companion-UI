@@ -1,0 +1,185 @@
+{
+  "version": 4,
+  "app_title": "Mental Wellness Companion Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-14955d21",
+      "name": "Welcome",
+      "route": "/",
+      "item_ref": {
+        "index": 0,
+        "text": "Create a responsive welcome page with a calm sage, cream, and muted terracotta palette, warm editorial typography, an introduction to the AI companion, a clear start-chat action, and visible safety guidance."
+      },
+      "blocks": [
+        {
+          "id": "welcome-nav",
+          "type": "nav",
+          "label": "Brand and navigation",
+          "hint": "Wordmark, About, Talk now; compact on mobile",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a responsive welcome page with a calm sage, cream, and muted terracotta palette, warm editorial typography, an introduction to the AI companion, a clear start-chat action, and visible safety guidance."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "welcome-hero",
+          "type": "hero",
+          "label": "A quieter space to talk",
+          "hint": "Supportive headline, short explanation, start-chat action",
+          "x": 0,
+          "y": 1,
+          "w": 7,
+          "h": 4,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a responsive welcome page with a calm sage, cream, and muted terracotta palette, warm editorial typography, an introduction to the AI companion, a clear start-chat action, and visible safety guidance."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "welcome-portrait",
+          "type": "image",
+          "label": "Human companion portrait",
+          "hint": "Warm approachable avatar illustration or portrait",
+          "x": 7,
+          "y": 1,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a responsive welcome page with a calm sage, cream, and muted terracotta palette, warm editorial typography, an introduction to the AI companion, a clear start-chat action, and visible safety guidance."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "welcome-topics",
+          "type": "card_grid",
+          "label": "What you can talk about",
+          "hint": "Stress, reflection, and navigating difficult days",
+          "x": 0,
+          "y": 5,
+          "w": 12,
+          "h": 2,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a responsive welcome page with a calm sage, cream, and muted terracotta palette, warm editorial typography, an introduction to the AI companion, a clear start-chat action, and visible safety guidance."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "welcome-safety",
+          "type": "text",
+          "label": "Safety note",
+          "hint": "Not therapy or emergency care; crisis guidance",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 0,
+            "text": "Create a responsive welcome page with a calm sage, cream, and muted terracotta palette, warm editorial typography, an introduction to the AI companion, a clear start-chat action, and visible safety guidance."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-4c3a114e",
+      "name": "Talk with companion",
+      "route": "/talk",
+      "item_ref": {
+        "index": 1,
+        "text": "Build a text-chat page with a human avatar, working AI replies, session-only conversation, useful starter prompts, loading and error states, and a clear reminder that the companion is not a clinician or emergency service."
+      },
+      "blocks": [
+        {
+          "id": "talk-nav",
+          "type": "nav",
+          "label": "Brand and navigation",
+          "hint": "Home link and conversation heading",
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build a text-chat page with a human avatar, working AI replies, session-only conversation, useful starter prompts, loading and error states, and a clear reminder that the companion is not a clinician or emergency service."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "talk-profile",
+          "type": "image",
+          "label": "Companion avatar and introduction",
+          "hint": "Portrait, identity, and supportive scope",
+          "x": 0,
+          "y": 1,
+          "w": 4,
+          "h": 5,
+          "item_ref": {
+            "index": 1,
+            "text": "Build a text-chat page with a human avatar, working AI replies, session-only conversation, useful starter prompts, loading and error states, and a clear reminder that the companion is not a clinician or emergency service."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "talk-thread",
+          "type": "chat",
+          "label": "Conversation",
+          "hint": "Message history, welcome state, loading, and errors",
+          "x": 4,
+          "y": 1,
+          "w": 8,
+          "h": 4,
+          "item_ref": {
+            "index": 1,
+            "text": "Build a text-chat page with a human avatar, working AI replies, session-only conversation, useful starter prompts, loading and error states, and a clear reminder that the companion is not a clinician or emergency service."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "talk-composer",
+          "type": "form",
+          "label": "Message composer",
+          "hint": "Text entry, starter prompts, and send action",
+          "x": 4,
+          "y": 5,
+          "w": 8,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Build a text-chat page with a human avatar, working AI replies, session-only conversation, useful starter prompts, loading and error states, and a clear reminder that the companion is not a clinician or emergency service."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "talk-safety",
+          "type": "text",
+          "label": "Help in a crisis",
+          "hint": "Immediate help reminder and emergency guidance",
+          "x": 0,
+          "y": 7,
+          "w": 12,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build a text-chat page with a human avatar, working AI replies, session-only conversation, useful starter prompts, loading and error states, and a clear reminder that the companion is not a clinician or emergency service."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}
